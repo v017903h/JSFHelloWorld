@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!--
+    File        :   index.html
+
+    Description :   This is the faces servlet welcome file defined in web.xml
+                    under the welcome-file element. Welcome-file defines the 
+                    entry point to the servlet.
+
+                    XML Version 1.0 using the UTF-8 encoding. UTF-8 defines the 
+                    character set is encoded for this file. UTF-8 is the most 
+                    common encoding used in web technologies
+
+    Author      :   Nick Vince
+    Date        :   25th October 2018
+
+    Revision History
+-->
+
+<!-- The Document Type Definition for this xhtml document. This defines the 
+    'grammatic' structure for the xtml type of document
+-->
+<!DOCTYPE html PUBLIC   "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+                        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!-- Root declaration for the html document. Include two namespaces based on tag 
+    libraries for xhtml and jsf
+-->
+<html xmlns     = "http://www.w3.org/1999/xhtml"
+      xmlns:h   = "http://xmlns.jcp.org/jsf/html">
+    
+    <!-- The html head element. However, as this is implemented using the JSF
+        taglib (h:) means that it can be dynamically manipulated via java beans 
+        using Expression Language deferred execution expressions at runtime. 
+        Without the JSF taglib, this would be a static xhtml head 
+        element
+    -->
+    
+    <h:outputStylesheet     library     = "css" 
+                            name        = "JSFHelloWorld.css"  />
+    
+    <h:head>
+        <meta   charset     = "utf-8"
+                name        = "viewport" 
+                content     = "width = device-width, initial-scale = 1"/>
+
+        <title>
+            Hello World 
+        </title>
+    </h:head>
+    
+    <h:body>
+    
+        <header>
+            <h3>
+                A World of Hello Worlds
+            </h3>
+        </header>
+
+        <section>
+            <nav>
+                <h4>
+                    Hello From Around The World
+                </h4>            
+                <ul>              
+                    <li>
+                        <a href='HelloWorld.xhtml' title="European">
+                            European
+                        </a>
+                    </li> 
+                    <li>
+                        <a href='HelloWorld.xhtml' title="Middle Eastern">
+                            Middle Eastern
+                        </a>
+                    </li> 
+                    <li>
+                        <a href='HelloWorld.xhtml' title="A">
+                            A
+                        </a>                
+                    </li> 
+                </ul>
+            </nav>
+
+            <article>
+                <table>
+
+                    <tr>
+                        <th>
+                            Hello World
+                        </th>
+                        <th>
+                            
+                        </th>
+                        <th>
+                            Langauge
+                        </th>
+                   </tr>
+                   <tr>
+                        <td>
+                            Kaixo Mundua
+                        </td>
+                        <td>
+                            
+                        </td>
+                        <td>
+                            Basque
+                        </td>
+                   </tr>
+                   <tr>
+                        <td>
+                            မင်္ဂလာပါကမ္ဘာလောက
+                        </td>
+                        <td>
+                            maingalarpar kambhar lawk
+                        </td>
+                        <td>
+                            Burmese
+                        </td>
+                   </tr>
+                   <tr>
+                        <td>
+                            Здраво свету
+                        </td>
+                        <td>
+                            Zdravo svetu
+                        </td>
+                        <td>
+                            Macedonian
+                        </td>
+                   </tr>
+                   <tr>
+                        <td>
+                            Salamu, Dunia
+                        </td>
+                        <td>
+                            
+                        </td>
+                        <td>
+                            Swahili
+                        </td>
+                   </tr>
+                   <tr>
+                        <td>
+                            Molo Lizwe
+                        </td>
+                        <td>
+                            
+                        </td>
+                        <td>
+                            Xhosa
+                        </td>
+                   </tr>
+                   <tr>
+                        <td>
+                            Mo ki O Ile Aiye
+                        </td>
+                        <td>
+                            
+                        </td>
+                        <td>
+                            Yoruba
+                        </td>
+                   </tr>
+                   <tr>
+                        <td>
+                            Helo Byd
+                        </td>
+                        <td>
+                            
+                        </td>
+                        <td>
+                            Welsh
+                        </td>
+                   </tr>
+                   <tr>
+                        <td>
+                            ওহে বিশ্ব
+                        </td>
+                        <td>
+                            Ōhē biśba
+                        </td>
+                        <td>
+                            Bangla
+                        </td>
+                   </tr>
+                   <tr>
+                        <td>
+                            Hàlo a Shaoghail
+                        </td>
+                        <td>
+                            
+                        </td>
+                        <td>
+                            Scottish Gaelic
+                        </td>
+                   </tr>
+                   <tr>
+                        <td>
+                            こんにちは世界
+                        </td>
+                        <td>
+                            Kon'nichiwa sekai
+                        </td>
+                        <td>
+                            Japanese
+                        </td>
+                   </tr>
+                </table>
+            </article>            
+        </section>
+    </h:body>
+</html>
